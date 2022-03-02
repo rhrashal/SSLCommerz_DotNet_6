@@ -26,8 +26,8 @@ namespace SSLCommerz_AspNetCore.Pages
             string amount = "85000";
             string currency = "BDT";
 
-            var storeId = "rejgsggsgsgsgsgeabc28c1c8";
-            var storePassword = "rfgsgejagsggsgsgsgsg8c1c8@ssl";
+            var storeId = "u621de8b235d25";
+            var storePassword = "u621de8b235d25@ssl";
 
             SSLCommerzGatewayProcessor sslcz = new SSLCommerzGatewayProcessor(storeId, storePassword, true);
             var resonse = sslcz.OrderValidate(TrxID, amount, currency, Request);

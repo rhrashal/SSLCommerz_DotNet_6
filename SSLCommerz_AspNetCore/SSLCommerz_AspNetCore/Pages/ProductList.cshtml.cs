@@ -63,8 +63,8 @@ namespace SSLCommerz_AspNetCore.Pages
             PostData.Add("product_category", "Demo");
 
             //we can get from email notificaton
-            var storeId = "rejgsggsgsgsgsgeabc28c1c8";
-            var storePassword = "rfgsgejagsggsgsgsgsg8c1c8@ssl";
+            var storeId = "u621de8b235d25";
+            var storePassword = "u621de8b235d25@ssl";
             var isSandboxMood = true;
 
             SSLCommerzGatewayProcessor sslcz = new SSLCommerzGatewayProcessor(storeId, storePassword, isSandboxMood);
